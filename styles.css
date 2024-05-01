@@ -1,0 +1,56 @@
+#toZoom {
+  fill: none;
+  stroke: none;
+}
+
+.shapes {
+  fill: white;
+  stroke: silver;
+  width: 120px;
+  height: 45px;
+  stroke-width: 2;
+}
+
+path {
+  fill: none;
+  stroke: silver;
+  stroke-width: 2;
+}
+
+text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.bigger {
+  font-size: 20px;
+}
+
+#details {
+  position: absolute;
+  left: 320px;
+  top: 120px;
+  width: 100px;
+  height: 30px;
+  background: gray;
+  color: white;
+  visibility: hidden;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+}
+
+image {
+  width: 50px;
+  height: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1px red solid;
+}
+
+.noSpouse {
+  visibility: hidden;
+}
